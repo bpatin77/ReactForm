@@ -25,7 +25,7 @@ export default function Authenticate({ token }) {
   }
 
   return (
-    <div class={check}>
+    <div className={"check"}>
       {" "}
       {/*We seperate each component due to each component having its own job: get the token, use the token. We defined this in the App.jsx line 11 and 14*/}
       <h2> Authenticate! </h2>
